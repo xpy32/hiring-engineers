@@ -52,10 +52,10 @@ $ sudo apt-get install mysql-server
 * To customize and visualizing your data, first clone your MySQL integration dashboard by going to "Dashboard" tab.
 * Click MySQL dashboard and then you will arrive your MySQL integration dashboard.
 * Click settings and clone the dashboard as shown on the below screenshot.
-* Screenshot here...
+![Clone Dashboard](https://github.com/xpy32/hiring-engineers/blob/support-engineer/clone_dashboard.png?raw=true)
 * Go to your cloned dashboard and add metric of your check from last step by adding a timeseries graph and choosing metric `test.support.random`.
 * Customize this graph by editing it and add a new marker as shown on the screenshot.
-* Screenshot here...
+![Add Marker](https://github.com/xpy32/hiring-engineers/blob/support-engineer/marker.jpg?raw=true)
 * Now you have a graph with a red box at the top indicating when `test.support.random` metric goes up above 0.90
 * You can take a snapshot by clicking the "Annotate this graph" button. And an email will be sent to the address you mentioned in the comment.
 ![Snapshot](https://github.com/xpy32/hiring-engineers/blob/542b8f11e02331f904d9eb12a1858a13382eecd1/snapshot_via_email.png?raw=true)
@@ -70,11 +70,11 @@ $ sudo apt-get install mysql-server
 * Automatic alert can be created to help to better montor the changes of your metrics.
 * First go to "Monitors" tab on Datagod UI.
 * Click new "Monitor" link on the top right and select Metric as monitor type with the following setup which will give you a multi-alert triggers when metric goes above 0.9 at least once during the last 5 minutes.
-* Screenshot here...
+![Create monitor](https://github.com/xpy32/hiring-engineers/blob/support-engineer/monitor_create.png?raw=true)
 * You may also want Datadog to send you an email whenever the alert is triggered. You can put your email content and choose who to notify as shown on the screenshot
-* Screenshot here...
+![Monitor notification](https://github.com/xpy32/hiring-engineers/blob/support-engineer/monitor_send_notification.png?raw=true)
 * After click save your alert should be up and running very soon.
 * **(Bonus question)** you probably don't want to be alerted when you are out of the office. You can go to manage downtime tab to schedule a downtime for your alert.
-* Screenshot here...
+![Create downtime](https://github.com/xpy32/hiring-engineers/blob/support-engineer/downtime.png?raw=true)
 * Once the downtime is correctly setup. You will be able to receive an email to confirm it.
 ![Downtime Email](https://github.com/xpy32/hiring-engineers/blob/542b8f11e02331f904d9eb12a1858a13382eecd1/scheduled_downtime.png?raw=true)
